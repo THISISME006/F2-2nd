@@ -1,0 +1,53 @@
+body {
+    box-sizing: border-box;
+    background-color: #1E1E1E;
+    color: white
+}
+
+main{
+    overflow:auto
+    
+}
+
+button{
+    background-color: white;
+    height: 30px;
+    width: 150px;
+    margin-left: 50px;
+}
+
+.form {
+    display: flex;
+    padding: 20px;
+}
+.formfield {
+    display: flex;
+    width: 30%;
+    padding: 20px;
+    flex-direction: column;
+}
+
+.employees {
+    display: flexbox;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 70%;
+    gap: 5px;
+    align-items: flex-start;
+}
+
+.employee{
+    border: white 1px white;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rebeccapurple;
+    height: 40px;
+    margin: 10px;
+}
+
+.filterval {
+    margin-left: 50px;
+    height: 30px;
+    width: 150px;
+    background-color: white;
+}
